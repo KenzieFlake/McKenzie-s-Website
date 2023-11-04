@@ -1,0 +1,49 @@
+header {
+
+    color: rgb(97, 2, 97);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+
+
+a {
+    padding-right: 10px;
+    display: inline-block;
+}
+
+h1 {
+    text-decoration: none;
+    color: black;
+    font-size: 100px;
+}
+
+nav {
+    text-decoration: none;
+    color: black;
+    font-size: 75px;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* CSS for the background waterfall image */
+#sanddunepic {
+
+    /* Replace 'your-image.jpg' with your image file path */
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    height: 100%;
+    width: 100%;
+    /* Adjust the height to fit your image */
+    /*position: relative;*/
+    z-index: -1;
+}
