@@ -1,9 +1,4 @@
 header {
-
-    color: rgb(97, 2, 97);
-}
-
-header {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -16,6 +11,7 @@ header {
 a {
     padding-right: 10px;
     display: inline-block;
+    align-items: flex-end;
 }
 
 h1 {
