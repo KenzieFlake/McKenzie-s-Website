@@ -2,33 +2,58 @@ header {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 
 }
 
+.left-box {
+    display: flex;
+    justify-content: flex-start
+}
 
+.center-box {
+    display: flex;
+    justify-content: center
+}
+
+.right-box {
+    display: flex;
+    justify-content: flex-end;
+}
 
 a {
     padding-right: 10px;
     display: inline-block;
     align-items: flex-end;
+    color: whitesmoke;
 }
 
-h1 {
+#searchbar {
+    /*display: flex;*/
     text-decoration: none;
-    color: black;
-    font-size: 50px;
+    color: whitesmoke;
+    font-size: 75px;
+    /*justify-content: flex-start;*/
 }
 
 nav {
     text-decoration: none;
-    color: black;
-    font-size: 25px;
+    color: whitesmoke;
+    font-size: 50px;
     margin-right: 10px;
+    justify-content: flex-end;
 }
 
 
+h5 {
+    color: whitesmoke;
+    font-size: 30px;
+}
 
+h2 {
+    color: whitesmoke;
+    font-size: 40px;
+}
 
 
 /* CSS for the background waterfall image */
@@ -42,4 +67,13 @@ nav {
     /* Adjust the height to fit your image */
     /*position: relative;*/
     z-index: -1;
+}
+
+.bottom-links {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    align-content: flex-end;
 }
