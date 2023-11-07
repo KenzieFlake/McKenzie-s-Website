@@ -77,3 +77,9 @@ h2 {
     justify-content: center;
     align-content: flex-end;
 }
+
+.text-overlay {
+    color: whitesmoke;
+    font-size: 30px;
+    align-content: center;
+}
