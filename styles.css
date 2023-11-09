@@ -1,85 +1,114 @@
+#image {
+    /* background-color: rgb(9, 88, 42)*/
+
+
+    background-image: url("assets/Sand\ Dune\ Pic.JPG");
+
+    /* Replace "your-image.jpg" with the path to your image */
+    background-size: cover;
+    /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*opacity: .5;*/
+    /* This makes the background image fixed as you scroll */
+}
+
+
 header {
-    display: flex;
+    /*display: flex;*/
     flex-direction: row;
     align-items: flex-end;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
 
-}
-
-.left-box {
-    display: flex;
-    justify-content: flex-start
-}
-
-.center-box {
-    display: flex;
-    justify-content: center
 }
 
 .right-box {
     display: flex;
     justify-content: flex-end;
+
 }
 
-a {
+.right-box a {
     padding-right: 10px;
     display: inline-block;
-    align-items: flex-end;
+    align-items: flex-start;
+    color: whitesmoke;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+
+.left-box {
+    padding-left: 20px;
+    padding-top: 15px;
+    /*display: flex;
+    justify-content: flex-start;*/
+}
+
+h1 {
+    font-size: 80px;
     color: whitesmoke;
 }
 
-#searchbar {
-    /*display: flex;*/
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 75px;
-    /*justify-content: flex-start;*/
+h5 {
+    font-size: 20px;
+    color: rgb(56, 56, 194);
 }
 
 nav {
     text-decoration: none;
     color: whitesmoke;
-    font-size: 50px;
+
     margin-right: 10px;
     justify-content: flex-end;
 }
 
 
-h5 {
-    color: whitesmoke;
-    font-size: 30px;
+#webmessage {
+
+    margin-top: 100px;
 }
 
-h2 {
+
+h3 {
+    text-align: center;
     color: whitesmoke;
     font-size: 40px;
-}
-
-
-/* CSS for the background waterfall image */
-#sanddunepic {
-
-    /* Replace 'your-image.jpg' with your image file path */
-    /*background-size: cover;*/
-    /*background-position: center;*/
-    height: 100%;
-    width: 100%;
-    /* Adjust the height to fit your image */
-    /*position: relative;*/
-    z-index: -1;
-}
-
-.bottom-links {
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 20px;
-    margin-right: 10px;
-    justify-content: center;
-    align-content: flex-end;
 }
 
 .text-overlay {
     color: whitesmoke;
     font-size: 30px;
     align-content: center;
+}
+
+p {
+    color: rgb(56, 56, 194);
+    text-align: left;
+    padding-left: 20px;
+    text-indent: 1em;
+}
+
+.bottom-links {
+    display: flexbox;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    align-content: flex-end;
+    margin-top: 265px;
+}
+
+.footerlinks {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.footerlinks a {
+    font-size: 20px;
+    color: #394048;
+    text-decoration: none;
+    display: flex;
+    margin: 0px 5px 0px 5px;
 }
