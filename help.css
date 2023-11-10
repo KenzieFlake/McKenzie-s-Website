@@ -2,7 +2,7 @@
     /* background-color: rgb(9, 88, 42)*/
 
 
-    background-image: url("assets/Sand\ Dune\ Pic.JPG");
+    background-image: url("./assets/Waterfall\ Backdrop\ Warm.jpg");
 
     /* Replace "your-image.jpg" with the path to your image */
     background-size: cover;
@@ -32,7 +32,7 @@ header {
     padding-right: 10px;
     display: inline-block;
     align-items: flex-start;
-    color: whitesmoke;
+    color: #080707;
     font-size: 27px;
     text-decoration: none;
 }
@@ -53,7 +53,7 @@ h1 {
 
 h5 {
     font-size: 20px;
-    color: rgb(56, 56, 194);
+    color: #161211;
 }
 
 nav {
@@ -84,7 +84,7 @@ h3 {
 }
 
 p {
-    color: rgb(56, 56, 194);
+    color: #161211;
     text-align: left;
     padding-left: 20px;
     text-indent: 1em;

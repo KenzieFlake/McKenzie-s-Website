@@ -22,6 +22,7 @@ header {
 
 }
 
+
 .right-box {
     display: flex;
     justify-content: flex-end;
@@ -41,6 +42,7 @@ header {
 .left-box {
     padding-left: 20px;
     padding-top: 15px;
+    padding-bottom: 0px;
     /*display: flex;
     justify-content: flex-start;*/
 }
@@ -49,11 +51,13 @@ h1 {
     font-size: 80px;
     color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0px 0px 0px;
 }
 
 h5 {
     font-size: 20px;
     color: rgb(56, 56, 194);
+    padding-left: 38px;
 }
 
 nav {
@@ -62,12 +66,21 @@ nav {
 
     margin-right: 10px;
     justify-content: flex-end;
+
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+ 
 }
 
 
 #webmessage {
 
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -77,18 +90,22 @@ h3 {
     font-size: 40px;
 }
 
-.text-overlay {
+.text-overlay ul{
     color: whitesmoke;
     font-size: 30px;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-p {
+/*p {
     color: rgb(56, 56, 194);
-    text-align: left;
+    /*text-align: left;
     padding-left: 20px;
     text-indent: 1em;
 }
+*/
+  
 
 .bottom-links {
     display: flexbox;
@@ -113,3 +130,4 @@ p {
     display: flex;
     margin: 0px 5px 0px 5px;
 }
+
