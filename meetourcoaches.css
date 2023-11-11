@@ -1,17 +1,17 @@
-#image {
+/*#image {
     /* background-color: rgb(9, 88, 42)*/
 
 
-    background-image: url("assets/Sand\ Dune\ Pic.JPG");
+    /*background-image: url("./assets/Back\ Yard\ Pic.JPG");
 
     /* Replace "your-image.jpg" with the path to your image */
-    background-size: cover;
-    /* Adjust as needed */
+    /*background-size: cover;
+    /* Adjust as needed 
     background-repeat: no-repeat;
     background-attachment: fixed;
     /*opacity: .5;*/
-    /* This makes the background image fixed as you scroll */
-}
+    /* This makes the background image fixed as you scroll 
+}*/
 
 
 header {
@@ -33,13 +33,23 @@ header {
     padding-right: 10px;
     display: inline-block;
     align-items: flex-start;
-    color: whitesmoke;
+    color: #170610;
     font-size: 27px;
     text-decoration: none;
 }
 
 
 .left-box {
+    background-image: url("assets/Back\ Yard\ Pic.JPG");
+
+    /* Replace "your-image.jpg" with the path to your image */
+    background-size: cover;
+    height: 250px;
+    /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*opacity: .5;*/
+    /* This makes the background image fixed as you scroll */
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 0px;
@@ -49,20 +59,20 @@ header {
 
 h1 {
     font-size: 80px;
-    color: whitesmoke;
+    color: #A85E81;
     font-family: 'Courier New', Courier, monospace;
     margin: 10px 0px 0px 0px;
 }
 
 h5 {
     font-size: 20px;
-    color: rgb(56, 56, 194);
+    color: #FF9D81;
     padding-left: 38px;
 }
 
 nav {
     text-decoration: none;
-    color: whitesmoke;
+    color: #170610;
 
     margin-right: 10px;
     justify-content: flex-end;
@@ -78,20 +88,21 @@ nav {
 
 #webmessage {
 
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
+   
 }
 
 
 h3 {
     text-align: center;
-    color: whitesmoke;
+    color: #170610;
     font-size: 40px;
 }
 
 .text-overlay ul{
-    color: whitesmoke;
+    color: #170610;
     font-size: 30px;
     display: flex;
     align-items: center;
